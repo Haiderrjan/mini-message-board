@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const path = require('node:path')
+const {body, validationRessult} = require('express-validator')
 
 
 const messageRouter = require('./routes/messageRouter')
